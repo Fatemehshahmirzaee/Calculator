@@ -25,6 +25,22 @@
 .btn {
     flex: 1;
     border-radius: 20px;
+}
 
+.rowEnd {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
 
+.rowEnd button {
+    flex: 1;
+    border-radius: 20px;
+
+}
+
+.rowEnd button:nth-of-type(1) {
+    flex:2;
 }
